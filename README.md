@@ -2,6 +2,9 @@
 
 ## I Can't Drive 
 
+- The game can be found at: https://synnott3.github.io/mS2_iCantDrive/
+- The code can be found at: https://github.com/Synnott3/mS2_iCantDrive
+
 ### What does it do and why did I build it?
 
 For my second Milestone project I chose to build a simple yet fun and challenge game using the Phaser engine.
@@ -52,11 +55,13 @@ behind the game while also feeling it wasn't overly childish.
 Testing for this game was done on my computer using XAMPP local host as a HTTP server to test my game while inn development,
 
 Once it was deploded to GIT it was then tested over many different smartphones and tablets.
-Those smartphones being Iphone X, Iphone 8, Ipad mini, One plus 6, Samsung 7, One plus 5 as well as Iphone 6
+Those smartphones being Iphone X, Iphone 8, Ipad mini, One plus 6, Samsung 7, Samsung S 7 edge, One plus 5 as well as Iphone 6
 
 As well as being tested on phone it was also tested on Chrome as well as Safari and FireFox.
 
 The only problem I ran into and still could not fix was getting the audio to work.
+
+Also found out doing testing a simple insturction at the start screen helps with making it even easier to understand.
 
 ### Deployment
 
@@ -64,3 +69,7 @@ The only problem I ran into and still could not fix was getting the audio to wor
 - XAMPP was used for a local version for testing during delopment 
 - It was then uploaded to GITHUB using the Terminal inside of VScode and GIt Bash installed on my computer 
 - Once uploaded to GitHub it was then hosted on GitPages
+
+### Credit 
+
+Contents 
