@@ -46,3 +46,21 @@ behind the game while also feeling it wasn't overly childish.
 - XAMPP for hosting and testing my game locally 
 - Visual Studio Code editor 
 - Youtube.com For Phaser tuts
+
+### Testing
+
+Testing for this game was done on my computer using XAMPP local host as a HTTP server to test my game while inn development,
+
+Once it was deploded to GIT it was then tested over many different smartphones and tablets.
+Those smartphones being Iphone X, Iphone 8, Ipad mini, One plus 6, Samsung 7, One plus 5 as well as Iphone 6
+
+As well as being tested on phone it was also tested on Chrome as well as Safari and FireFox.
+
+The only problem I ran into and still could not fix was getting the audio to work.
+
+### Deployment
+
+- The game was coded using Visual Studio Code
+- XAMPP was used for a local version for testing during delopment 
+- It was then uploaded to GITHUB using the Terminal inside of VScode and GIt Bash installed on my computer 
+- Once uploaded to GitHub it was then hosted on GitPages
