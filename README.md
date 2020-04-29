@@ -35,4 +35,14 @@ behind the game while also feeling it wasn't overly childish.
 ### Technologies Used
 
 - HTML5 - markup language
-
+- Javascript 
+- Phaser 3.23.0
+- Images from https://opengameart.org/
+- Sounds from Freesounds.org
+- GIT
+- GITHUB
+- Google Chrome developer tools
+- Code Snippets from https://williamclarkson.net/
+- XAMPP for hosting and testing my game locally 
+- Visual Studio Code editor 
+- Youtube.com For Phaser tuts
