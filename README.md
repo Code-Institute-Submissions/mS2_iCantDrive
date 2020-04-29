@@ -23,3 +23,16 @@ It would be a simple score keeping game that would reset everytime you crashed s
 
 
 
+
+### UX Design
+
+With a two year old being the main audiences of this game, I went in it with the idea of keeping as simple as a clean as possible,
+So I went for a real flat minimalist design that would not be overwhelming for anyone to play.
+
+While I testing I found, that the design worked in favour for every age group that played it as they found it simple and east to understand the idea 
+behind the game while also feeling it wasn't overly childish.
+
+### Technologies Used
+
+- HTML5 - markup language
+
