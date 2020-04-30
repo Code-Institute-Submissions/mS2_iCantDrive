@@ -18,6 +18,8 @@ class SceneTitle extends Phaser.Scene {
         //this.alignGrid.showNumbers();
 
         this.backImage=this.add.image(game.config.width/2, game.config.height/2,"titleBack");
+        this.backImage=this.add.image(game.config.width/2, game.config.height/2,"hint1");
+        
 
         var title=this.add.image(0,0,'title');
         Align.scaleToGameW(title,.8);
