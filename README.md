@@ -20,20 +20,21 @@ would slowly ramp up as the game progressed.
 
 This game was build to be fully respnsive, working both on mobile as well as web brower.
 
-The web brower would work by clicking on the car while the moobile version would work based on touch.
+The web brower would work by clicking on the car while the mobile version would work based on touch.
 
 It would be a simple score keeping game that would reset everytime you crashed so you could easily restart and try to beat it.
 
 
-
-
 ### UX Design
 
-With a two year old being the main audiences of this game, I went in it with the idea of keeping as simple as a clean as possible,
+With a two year old being the main audiences of this game, I went in it with the idea of keeping it as simple and as  clean as possible,
 So I went for a real flat minimalist design that would not be overwhelming for anyone to play.
 
-While I testing I found, that the design worked in favour for every age group that played it as they found it simple and east to understand the idea 
+While I testing I found, that the design worked in favour for every age group that played it as they found it simple and easy to understand the idea 
 behind the game while also feeling it wasn't overly childish.
+
+The only change made after testing was to add a quick describtion of what to do at the start, as I found it would take one attempt to fully understand you where in
+control of both cars.
 
 ### Technologies Used
 
@@ -49,19 +50,21 @@ behind the game while also feeling it wasn't overly childish.
 - XAMPP for hosting and testing my game locally 
 - Visual Studio Code editor 
 - Youtube.com For Phaser tuts
+- https://textcraft.net/ - for fonts 
 
 ### Testing
 
-Testing for this game was done on my computer using XAMPP local host as a HTTP server to test my game while inn development,
+Testing for this game was done on my computer using XAMPP local host as a HTTP server to test my game while in development
+on my desktop and to test it using a chrome as my brower.
 
 Once it was deploded to GIT it was then tested over many different smartphones and tablets.
 Those smartphones being Iphone X, Iphone 8, Ipad mini, One plus 6, Samsung 7, Samsung S 7 edge, One plus 5 as well as Iphone 6
 
 As well as being tested on phone it was also tested on Chrome as well as Safari and FireFox.
 
-The only problem I ran into and still could not fix was getting the audio to work.
+The problems I ran into and still could not fix was getting the audio to work as well as having some small grabs between the brower and game on mobile.
 
-Also found out doing testing a simple insturction at the start screen helps with making it even easier to understand.
+Also found out dduring testing that adding a simple insturction at the start screen helps with making it even easier to understand.
 
 ### Deployment
 
@@ -72,4 +75,6 @@ Also found out doing testing a simple insturction at the start screen helps with
 
 ### Credit 
 
-Contents 
+#### Contents 
+All contents where used from https://opengameart.org/
+Media from Freesounds.org
