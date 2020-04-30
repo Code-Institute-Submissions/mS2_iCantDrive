@@ -76,5 +76,6 @@ Also found out dduring testing that adding a simple insturction at the start scr
 ### Credit 
 
 #### Contents 
-All contents where used from https://opengameart.org/
-Media from Freesounds.org
+- All contents where used from https://opengameart.org/
+- Media from Freesounds.org
+- code snippets for dekstop and mobile framing from https://williamclarkson.net/
