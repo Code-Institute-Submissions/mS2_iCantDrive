@@ -1,5 +1,6 @@
 class Constants
 {
+    //the objectts thatt need to be updated connstantly
     constructor()
     {
         this.SET_SCORE="setScore";

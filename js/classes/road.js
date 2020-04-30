@@ -31,6 +31,7 @@ class Road extends Phaser.GameObjects.Container
     //add objects to advoid
     addObject()
     {
+        //control speed and size of objects
         var objs=[{key:'pcar1',speed:10,scale:10},{key:'pcar2',speed:10,scale:10},{key:'cone',speed:20,scale:5},{key:'barrier',speed:20,scale:8}];
         var index=Math.floor(Math.random()*4);
         var key=objs[index].key;
@@ -80,6 +81,7 @@ class Road extends Phaser.GameObjects.Container
             }.bind(this));
         }
     }
+    //starts the sceneover.js
     goGameOver()
     {
         this.scene.start('SceneOver');

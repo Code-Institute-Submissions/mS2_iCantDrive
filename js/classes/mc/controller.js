@@ -1,6 +1,7 @@
 class Controller
 {
 
+    //event emitters to  be called in differnt jS scenes
     constructor()
     {
         emitter.on(G.SET_SCORE,this.setScore);
@@ -9,6 +10,8 @@ class Controller
         emitter.on(G.TOGGLE_MUSIC,this.toggleMusic);
 
     }
+
+    //Audio functions couldn't get working
     toggleSound(val)
     {
         model.soundOn=val;
@@ -17,6 +20,8 @@ class Controller
     {
         model.musicOn=val;
     }
+
+    //Score function
     setScore(score)
     {
         model.score=score;

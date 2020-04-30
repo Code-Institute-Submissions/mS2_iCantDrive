@@ -2,6 +2,7 @@ class AlignGrid
 {
     constructor(config)
     {
+        //For creating a grid to place objects
         this.config=config;
         if(!config.scene)
         {
@@ -70,6 +71,7 @@ class AlignGrid
             this.placeAt(xx,yy,obj);
             
         }
+        //show numbers within in the grid and colour of the grid used for postioning objects
         showNumbers()
         {
             this.show();

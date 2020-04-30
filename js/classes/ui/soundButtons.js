@@ -1,6 +1,8 @@
 class SoundButtons extends Phaser.GameObjects.Container
 {
     constructor(config)
+
+    //coulnd not get the audio working kept in for the sound button visual
     {
         super(config.scene)
         this.scene=config.scene;
@@ -10,7 +12,7 @@ class SoundButtons extends Phaser.GameObjects.Container
 
         this.add(this.musicButton);
         this.add(this.sfxButton);
-
+        //sound button positions
         this.musicButton.y=this.musicButton.height/2;
         this.musicButton.x=this.musicButton.width/2;
 

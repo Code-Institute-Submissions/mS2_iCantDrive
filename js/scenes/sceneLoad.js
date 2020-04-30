@@ -3,13 +3,14 @@ class SceneLoad extends Phaser.Scene {
         super('SceneLoad');
     }
 
-    preload()
+    preload()//images and resources to be preload into the game so it loads faster
     {
         this.bar=new Bar({scene:this,x:game.config.width/2,y:game.config.height/2});
         this.progText=this.add.text(game.config.width/2,game.config.height/2,"0%",{color:'#ffffff',fontSize:game.config.width/20});
         this.progText.setOrigin(0.5,0.5);
         this.load.on('progress', this.onProgress, this);
 
+        //loads images and keys into the same
         this.load.image("titleBack","images/titleBack.jpg");
         this.load.image("hint1", "images/hint1.png");
 
@@ -28,9 +29,7 @@ class SceneLoad extends Phaser.Scene {
         this.load.image("musicOn", "images/ui/icons/music_on.png");
         this.load.image("musicOff", "images/ui/icons/music_off.png");
 
-        this.load.audio('backgroundMusic',["audio/random-race.mp3","audio/random-race.ogg"]);
-        this.load.audio('boom',["audio/boom.mp3","audio/boom.ogg"]);
-        this.load.audio('whoosh',["audio/whoosh.mp3","audio/whoosh.ogg"]);
+     
     }
     onProgress(value)
     {

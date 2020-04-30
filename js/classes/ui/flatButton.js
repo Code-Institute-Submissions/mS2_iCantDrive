@@ -4,6 +4,7 @@ class FlatButton extends Phaser.GameObjects.Container
     {
         if (!config.scene)
         {
+            //testing for buttons
             console.log("missing scene");
             return;
         }
@@ -44,6 +45,7 @@ class FlatButton extends Phaser.GameObjects.Container
 
         this.scene.add.existing(this);
 
+        //Button interaction
         if(config.event)
         {
             this.back.setInteractive();

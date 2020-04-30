@@ -3,6 +3,7 @@ var model;
 var emitter;
 var G;
 var controller;
+//all the variables as well as the code snippets for running in desktop and mobile
 window.onload = function () {
     var isMobile = navigator.userAgent.indexOf("Mobile");
     if (isMobile == -1) {
@@ -23,9 +24,11 @@ window.onload = function () {
             width: window.innerWidth,
             height: window.innerHeight,
             parent: 'phaser-game',
-            scene: [SceneLoad,SceneTitle,SceneMain,SceneOver]
+            //fits all the scenes to dekstop or mobile
+            scene: [SceneLoad,SceneTitle,SceneMain,SceneOver] 
         };
     }
+    
     console.log(config);
     G = new Constants();
     model = new Model();

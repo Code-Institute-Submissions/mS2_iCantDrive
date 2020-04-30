@@ -2,6 +2,7 @@ class ScoreBox extends Phaser.GameObjects.Container
 {
     constructor(config)
     {
+        //score box for the game
         super(config.scene);
         this.scene=config.scene;
 
@@ -9,6 +10,7 @@ class ScoreBox extends Phaser.GameObjects.Container
         this.text1.setOrigin(0.5,0.5);
         this.add(this.text1);
 
+        //design of the box
         this.text1.setBackgroundColor("#000000");
         this.scene.add.existing(this);
 

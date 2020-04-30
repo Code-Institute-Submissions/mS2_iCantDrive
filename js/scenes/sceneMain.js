@@ -9,17 +9,17 @@ class SceneMain extends Phaser.Scene {
     create() { //define objects
         emitter=new Phaser.Events.EventEmitter();
         controller=new Controller();
-        var mediaManager=new MediaManager({scene:this});
         model.gameOver=false;
         model.speed=1;
         model.score=0;  
 
            
-
+        //creates the roads in the scene
         this.road=new Road({scene:this})
         this.road.x=game.config.width*.25;
         this.road.makeLines();
 
+        //second car in the scene
         this.road2=new Road({scene:this})
         this.road2.x=game.config.width*.75;
         this.road2.makeLines();
@@ -32,13 +32,13 @@ class SceneMain extends Phaser.Scene {
 
         var soundButtons=new SoundButtons({scene:this});
 
-
+        //calls the scorebox
         this.sb=new ScoreBox({scene:this});
         this.sb.x=game.config.width/2;
         this.sb.y=50; 
         emitter.on(G.SCORE_UPDATED, this.scoreUpdated, this);
     }
-    scoreUpdated()
+    scoreUpdated()//determins the speed 
     {
         if (model.score/5==Math.floor(model.score/5))
         {
@@ -49,6 +49,7 @@ class SceneMain extends Phaser.Scene {
             }
         }
     }
+    //loads the road objects and lines
     update() {
         this.road.moveLines();
         this.road.moveObject();

@@ -11,6 +11,7 @@ class SceneOver extends Phaser.Scene {
     }
     create()
     {
+        //background iamge and also the grid for testing
         this.backImage=this.add.image(game.config.width/2, game.config.height/2,"titleBack");
         this.alignGrid=new AlignGrid({rows:11,cols:11,scene:this});
         //this.alignGrid.showNumbers();

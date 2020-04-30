@@ -12,7 +12,7 @@ class Bar extends Phaser.GameObjects.Container {
         if (!config.height){
             config.height = config.width / 4;
         }
-        //
+        //loading bar at the start of the game
 
         this.graphics=this.scene.add.graphics();
         this.graphics.fillStyle(config.color,1);

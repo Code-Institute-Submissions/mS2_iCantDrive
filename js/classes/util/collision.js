@@ -1,5 +1,6 @@
 class Collision 
 {
+    //to read collision oof on objects within the game
     static checkCollide(obj1, obj2){
 
         var distX=Math.abs(obj1.x - obj2.x);

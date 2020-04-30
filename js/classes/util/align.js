@@ -1,5 +1,6 @@
 class Align 
-{
+{   
+    //funtion for objects to scale 
     static scaleToGameW(obj,per)
     {
         obj.displayWidth=game.config.width*per;
