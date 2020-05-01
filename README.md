@@ -11,7 +11,7 @@ For my second Milestone project I chose to build a simple yet fun and challenge 
 
 I set out to build a game that was simple in design as well as understanding, so it can be picked up easy by anyone.
 
-Ideally it was build with my two year old nephew in mind as a simple time sink for him when on the road,
+Ideally it was build with my five year old nephew in mind as a simple time sink for him when on the road,
 
 So I came up with a game based around other games like temple run and snake, where it would be an endless loop with a difficulty that
 would slowly ramp up as the game progressed.
@@ -27,7 +27,7 @@ It would be a simple score keeping game that would reset everytime you crashed s
 
 ### UX Design
 
-With a two year old being the main audiences of this game, I went in it with the idea of keeping it as simple and as  clean as possible,
+With a five year old being the main audiences of this game, I went in it with the idea of keeping it as simple and as  clean as possible,
 So I went for a real flat minimalist design that would not be overwhelming for anyone to play.
 
 While I testing I found, that the design worked in favour for every age group that played it as they found it simple and easy to understand the idea 
