@@ -57,14 +57,18 @@ control of both cars.
 Testing for this game was done on my computer using XAMPP local host as a HTTP server to test my game while in development
 on my desktop and to test it using a chrome as my brower.
 
-Once it was deploded to GIT it was then tested over many different smartphones and tablets.
+I would also use the developer tool within chrome to make sure all files and images where being loaded,
+as well as using a lot of console.log("test") whenever I was adding new components to my game, such as a score board to see if it was being read
+into the console menu on the developer tool in chrome. 
+
+Once it was deployed to git it was then tested over many different smartphones and tablets.
 Those smartphones being Iphone X, Iphone 8, Ipad mini, One plus 6, Samsung 7, Samsung S 7 edge, One plus 5 as well as Iphone 6
 
 As well as being tested on phone it was also tested on Chrome as well as Safari and FireFox.
 
 The problems I ran into and still could not fix was getting the audio to work as well as having some small grabs between the brower and game on mobile.
 
-Also found out dduring testing that adding a simple insturction at the start screen helps with making it even easier to understand.
+Also found out during testing that adding a simple insturction at the start screen helps with making it even easier to understand.
 
 ### Deployment
 
@@ -72,6 +76,14 @@ Also found out dduring testing that adding a simple insturction at the start scr
 - XAMPP was used for a local version for testing during delopment 
 - It was then uploaded to GITHUB using the Terminal inside of VScode and GIt Bash installed on my computer 
 - Once uploaded to GitHub it was then hosted on GitPages
+- After moving of XAMPP with a more complete project to Github, under the respositorie mS2_iCantDrive
+- I uploaded files in parts first by creating a respositorie on github, and then pushing my index.html file by using a git init followed by git add index.html,
+then adding my first git commit -m "first commit" and fit remote add origin followed by git push to get the project into github. 
+  I used git commit -m "update notes" to add any comments and a description of changes done to any files of the project as well as anymore testing done during development.
+- I also took this time as well while using Github within a therminal on my code editor of choice to familiarise with github on a more advance level,
+using resources such as - https://www.youtube.com/watch?v=USjZcfj8yxE&t=109s
+- Git status was always used as a way to keep track of the files I had edited and which needed to be uploaded to git before moving to git push,
+- Finally git push was used to push all files to my respositorie and then the game was tested using gitpages.
 
 ### Credit 
 
